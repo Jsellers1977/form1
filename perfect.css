@@ -1,0 +1,23 @@
+/* PERFECT PHP - centerkey.com/php - MIT or WTFPL (your choice) */
+
+/* PERFECT style */
+form.perfect { max-width: 25em; background-color: whitesmoke; color: dimgray; border: 1px solid; border-radius: 2px; padding: 20px; margin: 0px auto 20px auto; }
+form.perfect h2 { font-size: 1.2rem; text-align: center; color: white; padding: 0.3em; margin: -20px -20px 20px -20px; clear: none; }
+form.perfect fieldset { border: none; padding: 0px; margin: 0px; }
+form.perfect label { display: block; text-align: left; }
+form.perfect input:not([type=checkbox]):not([type=radio]), form.perfect textarea { width: 100%; max-width: 100%; font-size: 1.2rem; margin: 0px 0px 15px 0px; -webkit-appearance: none; }
+form.perfect input[type=checkbox], form.perfect input[type=radio] { font-size: 1.2rem; margin: 0px 0.5em 0.2em 1.5em; }
+form.perfect label:last-of-type input { margin-bottom: 20px; }
+form.perfect select { font-size: 1.2rem; }
+form.perfect textarea { height: 4.1em; }
+form.perfect input, form.perfect textarea { box-sizing: border-box; border: 1px solid silver; border-radius: 5px; padding: 0.3em; }
+form.perfect p { display: flex; justify-content: space-between; align-items: flex-end; margin: 0px; }
+form.perfect p button { font-size: 1.1rem; font-weight: bold; color: white; background-color: dimgray; border: none; border-radius: 0.4em; padding: 0.6em 1.2em; margin-bottom: 0px; cursor: pointer; transition: background-color 0.4s; }
+form.perfect p button:hover { background-color: black; }
+form.perfect p span { font-size: 0.6rem; color: gray; }
+form.perfect p span a { color: gray; background-color: transparent; text-decoration: none; border: none; outline: none; }
+
+/* PERFECT colors */
+form.perfect { border-color: seagreen; }                                    /* outer color */
+form.perfect h2 { background-color: seagreen; }                             /* outer color */
+form.perfect input, form.perfect textarea { background-color: mintcream; }  /* input fields */
